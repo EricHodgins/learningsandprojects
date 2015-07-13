@@ -24,7 +24,7 @@ codesnippet: true
 	}
 </style>
 
-Here's a quick little project of quiz make in JavaScript.  Here's the quiz, give it a shot:
+Here's a quick little project of a music quiz made with JavaScript.  Here's the quiz, give it a shot:
 
 <h3>Relative Pitch Quiz</h3>
 
