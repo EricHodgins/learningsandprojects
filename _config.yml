@@ -2,6 +2,7 @@
 title: My Learnings
 email: eric@erichodgins.com
 description: A blog about stuff I learn and little projects I make.
+baseurl: '/learningsandprojects'
 url: "http://mylearnings.com" # the base hostname & protocol for your site
 twitter_username: hodgins_e
 github_username:  EricHodgins
