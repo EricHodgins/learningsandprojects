@@ -1,0 +1,31 @@
+# Site settings
+title: My Learnings
+email: eric@erichodgins.com
+description: A blog about stuff I learn and little projects I make.
+url: "http://mylearnings.com" # the base hostname & protocol for your site
+twitter_username: hodgins_e
+github_username:  EricHodgins
+paginate: 3
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Eric Hodgins
+      layout: "post"
+      category: Learning
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
