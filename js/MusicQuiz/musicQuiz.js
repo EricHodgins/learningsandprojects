@@ -1,3 +1,5 @@
+var baseurl = '/learningsandprojects';
+
 // quiz.js
 function Quiz(questions) {
 	this.score = 0;
@@ -85,7 +87,7 @@ var Quiz_UI = {
 
 	displayQuestion: function() {
 		var new_track = document.getElementById("audioFiles");
-		new_track.src = "{{ site.baseurl }}/js/MusicQuiz/" + questions[quiz.currentQuestionIndex].track;
+		new_track.src = baseurl + "/js/MusicQuiz/" + questions[quiz.currentQuestionIndex].track;
 	},
 
 	playAgain: function() {
@@ -94,7 +96,7 @@ var Quiz_UI = {
 
 		// Play ending game track (sweet outro riff)
 		var endingGame = document.getElementById("audioFiles");
-		endingGame.src = "{{ site.baseurl }}/js/MusicQuiz/endingQuizMusic.ogg";
+		endingGame.src = baseurl + "/js/MusicQuiz/endingQuizMusic.ogg";
 		endingGame.play();
 
 		var replay = document.getElementById("replayButton");
