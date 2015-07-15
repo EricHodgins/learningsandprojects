@@ -11,7 +11,8 @@ is what it basically looks like in the end.  How would you solve this recursivel
 <style type="text/css">
 	#canvas {
 		border: 1px solid black;
-		margin: auto;
+		margin-right: 300px;
+		margin-top: 12px;
 	}
 
 	#depth {
