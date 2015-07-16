@@ -1,5 +1,5 @@
 ---
-tag: Javascript
+tag: Algorithms
 javascript: sierpinskiGasket.js
 codesnippet: true
 ---
