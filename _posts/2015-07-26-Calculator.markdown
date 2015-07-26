@@ -7,86 +7,86 @@ codesnippet: true
 Here it is:
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 <style type="text/css">
-/* prevent text highlighting on double click*/
-#calc-wrapper {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
+	/* prevent text highlighting on double click*/
+	#calc-wrapper {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
 
-#calc-wrapper {
-	border: 5px solid rgb(147, 147, 147);
-	box-shadow: -11px 11px 15px #888;
-	width: 261px;
-	height: 431px;
-	margin-left: 20px;
-	cursor: pointer;
-}
+	#calc-wrapper {
+		border: 5px solid rgb(147, 147, 147);
+		box-shadow: -11px 11px 15px #888;
+		width: 261px;
+		height: 431px;
+		margin-left: 20px;
+		cursor: pointer;
+	}
 
-#screen-wrapper {
-	width: 100%;
-	background-color: black;	
-	margin-right: 10px;
-}
+	#screen-wrapper {
+		width: 100%;
+		background-color: black;	
+		margin-right: 10px;
+	}
 
-#calc-screen {
-	margin-right: 20px;
-	height: 105px;
-	text-align: right;
-	line-height: 110px;
-	font-size: 45px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	color: #FFF;
-}
+	#calc-screen {
+		margin-right: 20px;
+		height: 105px;
+		text-align: right;
+		line-height: 110px;
+		font-size: 45px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: #FFF;
+	}
 
 
-/* for the numpad */
-.num {
-	margin: -1px;
-	border: 1px solid rgba(0, 0, 0, 0.39);
-	float: left;
-	width: 65px;
-	height: 65px;
-	text-align: center;
-	line-height: 65px;
-	font-size: 30px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	color: #000;
-	background-color: #F5F5F5;
-}
+	/* for the numpad */
+	.num {
+		margin: -1px;
+		border: 1px solid rgba(0, 0, 0, 0.39);
+		float: left;
+		width: 65px;
+		height: 65px;
+		text-align: center;
+		line-height: 65px;
+		font-size: 30px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: #000;
+		background-color: #F5F5F5;
+	}
 
-.num:active {
-	background-color: #D8D1D1;
-}
+	.num:active {
+		background-color: #D8D1D1;
+	}
 
-.zero {
-	width: 130px;
-	text-align: left;
-	text-indent: 25px;
-}
+	.zero {
+		width: 130px;
+		text-align: left;
+		text-indent: 25px;
+	}
 
-.op {
-	background-color: orange;
-	color: #FFF;
-}
+	.op {
+		background-color: orange;
+		color: #FFF;
+	}
 
-.op:active {
-	background-color: #FFCE33;
-}	
+	.op:active {
+		background-color: #FFCE33;
+	}	
 
-/* Top 3 operators C, +/- and % */
-.topOp {
-	background-color: #E4E4E4;
-}
+	/* Top 3 operators C, +/- and % */
+	.topOp {
+		background-color: #E4E4E4;
+	}
 
-#decimal {
-	font-size: 50px;
-	line-height: 50px;
+	#decimal {
+		font-size: 50px;
+		line-height: 50px;
 }
 </style>
 
