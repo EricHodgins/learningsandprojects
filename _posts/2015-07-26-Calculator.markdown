@@ -5,7 +5,9 @@ codesnippet: true
 ---
 
 Here it is:
+
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+
 <style type="text/css">
 	/* prevent text highlighting on double click*/
 	#calc-wrapper {
