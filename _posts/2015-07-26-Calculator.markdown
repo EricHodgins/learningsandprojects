@@ -4,7 +4,7 @@ javascript: calculator.js
 codesnippet: true
 ---
 
-Here it is:
+Here it is.  You can find the souce code here [Calculator](https://github.com/EricHodgins/javascriptCalculator)
 
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 
